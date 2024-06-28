@@ -1,3 +1,4 @@
+![Header Image](https://github.com/chris-scotty/.dotfiles/blob/main/img/header.webp)
 # 🛠️ My Dotfiles Repository
 
 Welcome to my dotfiles repository! This is a curated collection of my personal configuration files, fine-tuned to enhance my development environment. Dive in to discover configurations for some of my favorite tools and streamline your setup with ease.
