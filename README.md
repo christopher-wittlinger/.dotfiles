@@ -8,6 +8,10 @@ Welcome to my dotfiles repository! This is a curated collection of my personal c
 This repository includes dotfiles for:
 
 - **Neovim**: Modern, highly customizable Vim-based text editor.
+   - LSP (Language Server Protocol) integration for code completion and linting.
+   - Treesitter for advanced syntax highlighting and code analysis.
+   - Telescope for fuzzy file finding and project navigation.
+   - Various other plugins for enhanced productivity.
 - **ZSH**: Powerful shell with a rich scripting environment.
 - **Tmux**: Terminal multiplexer for managing multiple terminal sessions.
 - **Poetry**: Dependency management and packaging tool for Python.
