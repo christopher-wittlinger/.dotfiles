@@ -22,3 +22,5 @@ alias lg="lazygit"
 compinit -d ~/.cache/zsh/.zcompdump
 
 eval "$(direnv hook zsh)"
+
+. "$HOME/.cargo/env"
