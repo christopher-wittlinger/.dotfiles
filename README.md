@@ -47,8 +47,8 @@ cd .dotfiles
 Use Stow to manage your dotfiles.
 
 ```sh
-stow neovim
-stow zsh
+stow nvim
+stow zshrc
 stow tmux
 stow poetry
 ```
