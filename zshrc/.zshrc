@@ -23,3 +23,6 @@ eval "$(direnv hook zsh)"
 
 # Source the NVM Init to make it executable
 source /usr/share/nvm/init-nvm.sh
+
+# Source cargo to enable uv
+. "$HOME/.cargo/env"
