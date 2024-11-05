@@ -15,6 +15,8 @@ This repository includes dotfiles for:
 - **ZSH**: Powerful shell with a rich scripting environment.
 - **Tmux**: Terminal multiplexer for managing multiple terminal sessions.
 - **Poetry**: Dependency management and packaging tool for Python.
+- **Hyprland**: Tiling Window Manager based on Wayland
+- **Kitty**: Terminal Emulator
 
 ## 🚀 Getting Started
 
@@ -51,6 +53,8 @@ stow nvim
 stow zshrc
 stow tmux
 stow poetry
+stow kitty
+stow hypr
 ```
 
 ### Customization
