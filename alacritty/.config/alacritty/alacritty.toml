@@ -1,3 +1,0 @@
-import = [
-   "~/.dotfiles/alacritty/.config/alacritty/tokyonight.toml"
-]

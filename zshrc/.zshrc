@@ -10,17 +10,16 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 export EDITOR="nvim"
 export VISUAL="nvim"
+alias lg="lazygit"
 
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-
+#
 export PATH="/home/cwittlinger/.local/bin:$PATH"
 
-alias lg="lazygit"
-
-compinit -d ~/.cache/zsh/.zcompdump
-
+# Startup Direnv
 eval "$(direnv hook zsh)"
 
-. "$HOME/.cargo/env"
+# Source the NVM Init to make it executable
+source /usr/share/nvm/init-nvm.sh
