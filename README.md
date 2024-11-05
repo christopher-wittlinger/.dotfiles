@@ -5,6 +5,7 @@ Welcome to my dotfiles repository! This is a curated collection of my personal c
 
 ## ⚙️ Configurations Included
 
+
 This repository includes dotfiles for:
 
 - **Neovim**: Modern, highly customizable Vim-based text editor.
