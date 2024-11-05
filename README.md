@@ -18,6 +18,7 @@ This repository includes dotfiles for:
 - **Poetry**: Dependency management and packaging tool for Python.
 - **Hyprland**: Tiling Window Manager based on Wayland
 - **Kitty**: Terminal Emulator
+- **Waybar**: A statusbar for wayland based compositors
 
 ## 🚀 Getting Started
 
@@ -56,6 +57,7 @@ stow tmux
 stow poetry
 stow kitty
 stow hypr
+stow waybar
 ```
 
 ### Customization
