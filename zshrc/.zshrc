@@ -11,12 +11,15 @@ alias vim="nvim"
 export EDITOR="nvim"
 export VISUAL="nvim"
 alias lg="lazygit"
+alias top="btm"
 
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-#
-export PATH="/home/cwittlinger/.local/bin:$PATH"
+# [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+
+# export PYENV_ROOT="$HOME/.pyenv"
+# [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
+# #
+# export PATH="/home/cwittlinger/.local/bin:$PATH"
 
 # Startup Direnv
 eval "$(direnv hook zsh)"
@@ -26,3 +29,4 @@ source /usr/share/nvm/init-nvm.sh
 
 # Source cargo to enable uv
 . "$HOME/.cargo/env"
+export PATH=$HOME/.local/bin:$PATH
